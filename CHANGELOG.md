@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Added citation and archive metadata (`CITATION.cff`, `.zenodo.json`). No changes to data files.
+
 ## v1.0 — 14 Nov 2026
 
 - Dataset frozen as v1.0 (data window 5 Aug – 13 Nov 2026, plus 2 pre-window context rows).

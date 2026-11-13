@@ -33,6 +33,7 @@ A small, descriptive dataset of public exchanges on X in which the author's acco
 | `index.html` | Essay "The loop is the signal" (GitHub Pages) |
 | `CHANGELOG.md` | Version history |
 | `LICENSE` | Scope note + CC BY 4.0 legal code |
+| `CITATION.cff`, `.zenodo.json` | Citation and archive metadata |
 
 ### CSV columns
 

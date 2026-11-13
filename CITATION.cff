@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Phoenix Experiment — Grok image interactions dataset (v1.0)"
+authors:
+  - family-names: Zanetti
+    given-names: Matteo
+    affiliation: BJ Beyond
+version: "1.0"
+date-released: "2026-11-14"
+license: CC-BY-4.0
+repository-code: "https://github.com/bjbeyond81/phoenix-experiment-dataset"
+url: "https://bjbeyond81.github.io/phoenix-experiment-dataset/"
+abstract: >-
+  Descriptive dataset of public exchanges on X (5 Aug – 13 Nov 2026, plus 2
+  pre-window context rows) in which @BJ_Beyond and @BJ_hal addressed @grok and
+  a Grok-generated image appeared. 55 rows, 51 Grok replies with media, 58
+  unique images (referenced by Post ID and SHA256 only, not redistributed).
+  Photos only, no denominator, small n; authorship of prompts is author
+  testimony; any mechanism is a hypothesis.
+keywords:
+  - Phoenix Experiment
+  - Grok
+  - xAI
+  - image generation
+  - human judgment
+  - Human Edge
+  - ritual convergence
+  - dataset
