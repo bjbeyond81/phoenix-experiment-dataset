@@ -1,7 +1,8 @@
 # Changelog
 
-## Unreleased
+## v1.0.0 — 14 Nov 2026
 
+- Archived on Zenodo. Concept DOI: https://doi.org/10.5281/zenodo.24209866 ; version DOI: https://doi.org/10.5281/zenodo.24209867
 - Added citation and archive metadata (`CITATION.cff`, `.zenodo.json`). No changes to data files.
 
 ## v1.0 — 14 Nov 2026

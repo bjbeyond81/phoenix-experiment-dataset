@@ -4,6 +4,7 @@
 **Version:** v1.0, frozen 14 Nov 2026
 **Repository:** https://github.com/bjbeyond81/phoenix-experiment-dataset
 **Essay:** [The loop is the signal](https://bjbeyond81.github.io/phoenix-experiment-dataset/)
+**DOI:** [10.5281/zenodo.24209866](https://doi.org/10.5281/zenodo.24209866) (concept); v1.0.0: [10.5281/zenodo.24209867](https://doi.org/10.5281/zenodo.24209867)
 **License:** CC BY 4.0 for the CSV, this README, the CHANGELOG, the essay text and the author's prompts. Grok images are **not** included and **not** licensed (see [Rights and what is not included](#rights-and-what-is-not-included)).
 
 ## Summary
@@ -91,6 +92,10 @@ A small, descriptive dataset of public exchanges on X in which the author's acco
 
 ## How to cite
 
-> Zanetti, M. (BJ Beyond) (2026). *Phoenix Experiment — Grok image interactions dataset (v1.0)* [Data set]. GitHub. https://github.com/bjbeyond81/phoenix-experiment-dataset
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24209866.svg)](https://doi.org/10.5281/zenodo.24209866)
 
-DOI pending (a Zenodo deposit is planned; this section will be updated with the DOI).
+> Zanetti, M. (2026). *Phoenix Experiment — Grok image interactions dataset (v1.0)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24209866
+
+- Concept DOI (always resolves to the latest version): https://doi.org/10.5281/zenodo.24209866
+- Version v1.0.0 DOI: https://doi.org/10.5281/zenodo.24209867
+- GitHub repository: https://github.com/bjbeyond81/phoenix-experiment-dataset

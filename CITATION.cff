@@ -7,6 +7,7 @@ authors:
     given-names: Matteo
     affiliation: BJ Beyond
 version: "1.0"
+doi: 10.5281/zenodo.24209866
 date-released: "2026-11-14"
 license: CC-BY-4.0
 repository-code: "https://github.com/bjbeyond81/phoenix-experiment-dataset"
