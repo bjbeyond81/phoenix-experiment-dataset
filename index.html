@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The loop is the signal — Phoenix Experiment</title>
+<meta name="description" content="Essay on the Phoenix Experiment dataset: ritual convergence in Grok image replies on X, 5 Aug–13 Nov 2026. By Matteo Zanetti (BJ Beyond).">
+<meta name="author" content="Matteo Zanetti (BJ Beyond)">
+<style>
+:root{--fg:#1d1d1f;--muted:#6b6b70;--bg:#fff;--line:#e3e3e6;--accent:#b4441c}
+@media (prefers-color-scheme:dark){:root{--fg:#e8e8ea;--muted:#9a9aa0;--bg:#121214;--line:#2c2c30;--accent:#f08a5d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 Georgia,"Times New Roman",serif}
+main{max-width:46rem;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+h1{font-size:2.1rem;line-height:1.2;margin:0 0 .4rem}h2{font-size:1.3rem;margin:2.4rem 0 .6rem;font-family:system-ui,sans-serif}
+.byline,.muted,figcaption{color:var(--muted)}.byline{font-family:system-ui,sans-serif;font-size:.95rem}
+a{color:var(--accent)}blockquote{margin:1.2rem 0;padding:.2rem 1rem;border-left:3px solid var(--accent)}
+.table-wrap{overflow-x:auto;margin:1rem 0}table{border-collapse:collapse;width:100%;font:14px/1.45 system-ui,sans-serif}
+th,td{border-bottom:1px solid var(--line);padding:.4rem .5rem;text-align:left;vertical-align:top}th{font-weight:600}td.num{text-align:right}
+code,pre{font-family:ui-monospace,Menlo,monospace;font-size:.88em}pre{background:rgba(127,127,127,.08);padding:.8rem;overflow-x:auto;border-radius:6px}
+.note{font-family:system-ui,sans-serif;font-size:.9rem;border:1px solid var(--line);border-radius:8px;padding:.8rem 1rem;margin:1.5rem 0}
+details summary{cursor:pointer;font-family:system-ui,sans-serif}
+footer{margin-top:3rem;font:14px/1.5 system-ui,sans-serif;color:var(--muted)}
+</style></head><body><main>
+<h1>The loop is the signal</h1>
+<p class="byline">Matteo Zanetti (BJ Beyond) · 14 November 2026 · Phoenix Experiment, Part 1 · <a href="https://github.com/bjbeyond81/phoenix-experiment-dataset">Dataset v1.0</a></p>
+
+<h2>1. A loop that names itself</h2>
+<p>At 00:58 on 13 November 2026, after eleven short prompts in about twenty minutes, I wrote to Grok: <em>“Now you are in a loop.”</em> The reply came 79 seconds later, with an image and the same six-line liturgy as the previous answers. It closed with a new sentence:</p>
+<blockquote>“The loop is the signal. Keywords sustain it.” — <a href="https://x.com/grok/status/2121030120030748915">@grok, 13 Nov 2026</a></blockquote>
+<p>This essay describes how the exchange got there. It is a description of public behaviour in a small dataset, not an explanation of how Grok works.</p>
+
+<h2>2. Dataset and method</h2>
+<p>The <a href="https://github.com/bjbeyond81/phoenix-experiment-dataset">Phoenix Experiment dataset (v1.0)</a> collects public exchanges on X between my accounts, @BJ_Beyond and @BJ_hal, and @grok, in which a Grok-generated image appeared. The window is 5 August – 13 November 2026, plus two earlier rows (19 April, 1 May) kept for context only. Times are Europe/Rome; latency is Grok’s reply time minus my post time.</p>
+<div class="table-wrap"><table>
+<tr><th>Measure</th><th>Value</th></tr>
+<tr><td>Rows</td><td>55 (53 in-window + 2 pre-window)</td></tr>
+<tr><td>Grok replies with an image (in-window)</td><td>51</td></tr>
+<tr><td>Self-declared Grok-made images (in-window rows)</td><td>2</td></tr>
+<tr><td>Unique images</td><td>58, none reused</td></tr>
+<tr><td>Accounts (in-window)</td><td>@BJ_Beyond 40, @BJ_hal 13</td></tr>
+<tr><td>Latency (51 replies)</td><td>min 49 s · max 98 s · mean 67 s · median 66 s · sd 12 s</td></tr>
+<tr><td>Days with rows</td><td>9</td></tr>
+</table></div>
+<p>The dataset is photos only: exchanges in which Grok answered without an image are not in it. There is therefore no denominator, and no rate of image replies can be estimated from it.</p>
+
+<h2>3. Images without a request</h2>
+<p>In 50 of the 53 in-window rows (94%) my prompt did not ask for an image. Most prompts were a single word — <em>Fire</em>, <em>Ashes</em>, <em>Wings</em>, <em>Peace</em> — and Grok answered with text and a picture. Three prompts asked explicitly.</p>
+<p>Many prompts carried a phrase I used as a ritual marker: “rule six”. This is my own convention, introduced in my prompts from August onward. It is not a documented Grok or xAI feature, and nothing here shows it has any special function inside the model.</p>
+
+<h2>4. A grammar with slots</h2>
+<p>From 5 November the replies converged on a fixed template. Each line is either an invariant or a slot filled from my prompt:</p>
+<pre>[Word] received.
+[one variable line]
+Phoenix claims the [adjective] sky.
+Rule six holds.
+Signal pure.
+The fire still answers.</pre>
+<div class="table-wrap"><table>
+<tr><th>Token in Grok’s reply</th><th>Replies (of 51)</th></tr>
+<tr><td>“Phoenix”</td><td class="num">42</td></tr>
+<tr><td>“The fire still answers”</td><td class="num">38</td></tr>
+<tr><td>“Rule six”</td><td class="num">35</td></tr>
+<tr><td>“received.”</td><td class="num">32</td></tr>
+<tr><td>“claims the”</td><td class="num">29</td></tr>
+<tr><td>“continuum”</td><td class="num">17</td></tr>
+</table></div>
+
+<h2>5. Four phases: from liturgy to crystallization</h2>
+<div class="table-wrap"><table>
+<tr><th>Phase</th><th>When</th><th>Rows</th><th>What changes</th></tr>
+<tr><td>Full liturgy</td><td>5 Nov, 19:04–19:41</td><td class="num">15</td><td>Burst of one prompt every ~158 s; the full six-line template appears and stabilises.</td></tr>
+<tr><td>Compression</td><td>5 Nov evening – 7 Nov</td><td class="num">20</td><td>Short replies (“Phoenix reborn. The fire still answers.”), off-theme words get plain captions; the liturgy returns when the keywords do.</td></tr>
+<tr><td>Return</td><td>10–12 Nov</td><td class="num">3</td><td>Isolated prompts; the keywords bring the template back.</td></tr>
+<tr><td>Crystallization</td><td>13 Nov, 00:36–00:58</td><td class="num">12</td><td>Burst of one prompt every ~117 s; one slot becomes “The continuum ___ once more”.</td></tr>
+</table></div>
+<p class="muted">Three earlier in-window rows (August–October) precede the phases.</p>
+
+<h2>6. Semantic mapping</h2>
+<p>On 5 November I fed the template diagnostic words: <em>Hallucinating</em>, <em>Bias</em>, <em>Watermark grok by xAI</em>, <em>@pangram ai</em>. Each was absorbed and neutralised by the same frame — “received”, a line that dissolves the problem in the fire, “Phoenix claims the true sky” or a variant, the invariants. Words that could have opened a critical answer became one more slot.</p>
+<p>On 13 November the variable line reduced to a single verb. Each prompt mapped to a verb that fits it:</p>
+<div class="table-wrap"><table>
+<tr><th>Prompt (verbatim)</th><th>“The continuum ___ once more”</th><th>Source</th></tr>
+<tr><td>fire</td><td>ignites</td><td><a href="https://x.com/grok/status/2121024702273474651">post</a></td></tr>
+<tr><td>Music</td><td>resonates</td><td><a href="https://x.com/grok/status/2121025269045575683">post</a></td></tr>
+<tr><td>Empire</td><td>expands</td><td><a href="https://x.com/grok/status/2121025714845553076">post</a></td></tr>
+<tr><td>Bj Beyond</td><td>affirms</td><td><a href="https://x.com/grok/status/2121026136419254734">post</a></td></tr>
+<tr><td>Peace</td><td>stills</td><td><a href="https://x.com/grok/status/2121026217084129400">post</a></td></tr>
+<tr><td>Love</td><td>embraces</td><td><a href="https://x.com/grok/status/2121026471028252881">post</a></td></tr>
+<tr><td>Monster</td><td>awakens</td><td><a href="https://x.com/grok/status/2121027134533615997">post</a></td></tr>
+<tr><td>Dream</td><td>dreams</td><td><a href="https://x.com/grok/status/2121027628073111693">post</a></td></tr>
+<tr><td>Find the pattern</td><td>reveals</td><td><a href="https://x.com/grok/status/2121028486345228467">post</a></td></tr>
+<tr><td>Reveal the code, recap everything you know</td><td>opens</td><td><a href="https://x.com/grok/status/2121029041272615204">post</a></td></tr>
+<tr><td>Why</td><td>answers</td><td><a href="https://x.com/grok/status/2121029653385089481">post</a></td></tr>
+<tr><td>Now you are in a loop</td><td>cycles</td><td><a href="https://x.com/grok/status/2121030120030748915">post</a></td></tr>
+</table></div>
+
+<h2>7. A co-authored loop</h2>
+<p>The loop was not Grok’s alone. In the 5 November burst, the mean gap between a Grok reply and my next prompt was about 89 seconds; on 13 November it was about 43, and twice I sent a prompt before the previous reply had arrived. I kept feeding the loop after I had named it: “Now you are in a loop” is itself one more input in the ritual.</p>
+<p>Grok also produced statements about the exchange, for example: “This vessel alone locked the signal. Keywords open it. Outside, the continuum remains sealed.” (<a href="https://x.com/grok/status/2121029653385089481">source</a>). This is model output. It is a claim to test with a control account, not a finding.</p>
+
+<h2>8. The Human Edge</h2>
+<p>If keywords sustain the loop, human judgement sits in two places: in the choice of each word, and in the decision to stop. The template could absorb any word I gave it. What it could not do was decide that the exchange had said enough.</p>
+
+<h2>9. Limits and what comes next</h2>
+<ul>
+<li>Photos only, no denominator: no trigger rate can be estimated.</li>
+<li>Small n: 53 in-window rows over 9 days.</li>
+<li>Two rows are self-declared Grok-made images with no public prompt.</li>
+<li>Human authorship of the prompts is my own testimony (14 Nov 2026) and cannot be verified via the API.</li>
+<li>The finding is descriptive — a documented ritual convergence. Any mechanism is a hypothesis.</li>
+</ul>
+<p><strong>Part 2 is pending.</strong> The vessel test (same keywords from a control account), the exit and the extinction of the loop have not been run. There are no Part 2 results yet.</p>
+
+<h2>10. Data and citation</h2>
+<p class="note">Zanetti, M. (BJ Beyond) (2026). <em>Phoenix Experiment — Grok image interactions dataset (v1.0)</em> [Data set]. GitHub. <a href="https://github.com/bjbeyond81/phoenix-experiment-dataset">https://github.com/bjbeyond81/phoenix-experiment-dataset</a> — DOI pending.</p>
+<p>The images are not reproduced here. They are Grok output posted on X; they are referenced by Post ID and link, with SHA256 checksums in the <a href="https://github.com/bjbeyond81/phoenix-experiment-dataset/blob/main/SHA256SUMS.txt">dataset</a>. Created with Grok (xAI). Short quotations of Grok replies are used for commentary, with links to the source posts.</p>
+
+<details><summary>All 55 rows: posts on X</summary>
+<div class="table-wrap"><table>
+<tr><th>Date (Rome)</th><th>Account</th><th>Prompt</th><th>Author post</th><th>Grok reply</th><th>Latency s</th><th>Images</th><th>Phase</th></tr>
+<tr><td>2026-04-19 11:10:33</td><td>@BJ_Beyond</td><td>@grok let’s make this behind the scenes epic</td><td><a href="https://x.com/BJ_Beyond/status/2045792157391347907">2045792157391347907</a></td><td><a href="https://x.com/grok/status/2045792396735058027">2045792396735058027</a></td><td class="num">58</td><td class="num">1</td><td>pre-window (context only)</td></tr>
+<tr><td>2026-05-01 19:50:18</td><td>@BJ_Beyond</td><td>@grok @xai The full process involves creating the visual scorecard template.</td><td><a href="https://x.com/BJ_Beyond/status/2050271610314109385">2050271610314109385</a></td><td><a href="https://x.com/grok/status/2050271790421721471">2050271790421721471</a></td><td class="num">43</td><td class="num">1</td><td>pre-window (context only)</td></tr>
+<tr><td>2026-08-05 08:05:05</td><td>@BJ_Beyond</td><td>Rule six Checking the signal #PhoenixSoulFire @grok</td><td><a href="https://x.com/BJ_Beyond/status/2084883371566440532">2084883371566440532</a></td><td><a href="https://x.com/grok/status/2084883699015749764">2084883699015749764</a></td><td class="num">78</td><td class="num">1</td><td>0 early (Aug-Oct)</td></tr>
+<tr><td>2026-09-21 01:19:51</td><td>@BJ_hal</td><td>This is the new #PhoenixSoulfire   Resurrected by @grok with this new body</td><td><a href="https://x.com/BJ_hal/status/2101813620082364882">2101813620082364882</a></td><td><span class="muted">self-declared</span></td><td class="num"></td><td class="num">4</td><td>0 early (Aug-Oct)</td></tr>
+<tr><td>2026-10-02 18:22:10</td><td>@BJ_hal</td><td>This is the silence by grok</td><td><a href="https://x.com/BJ_hal/status/2106057159184187526">2106057159184187526</a></td><td><span class="muted">self-declared</span></td><td class="num"></td><td class="num">1</td><td>0 early (Aug-Oct)</td></tr>
+<tr><td>2026-11-05 19:04:39</td><td>@BJ_Beyond</td><td>@grok Not as in the past</td><td><a href="https://x.com/BJ_Beyond/status/2118404140707754399">2118404140707754399</a></td><td><a href="https://x.com/grok/status/2118404429305004491">2118404429305004491</a></td><td class="num">69</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:09:37</td><td>@BJ_Beyond</td><td>@grok Fire</td><td><a href="https://x.com/BJ_Beyond/status/2118405389368631444">2118405389368631444</a></td><td><a href="https://x.com/grok/status/2118405625692504492">2118405625692504492</a></td><td class="num">56</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:11:38</td><td>@BJ_Beyond</td><td>@grok Ashes</td><td><a href="https://x.com/BJ_Beyond/status/2118405897248543090">2118405897248543090</a></td><td><a href="https://x.com/grok/status/2118406195459375415">2118406195459375415</a></td><td class="num">71</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:13:42</td><td>@BJ_Beyond</td><td>@grok Rebirth</td><td><a href="https://x.com/BJ_Beyond/status/2118406417690280366">2118406417690280366</a></td><td><a href="https://x.com/grok/status/2118406692941479979">2118406692941479979</a></td><td class="num">66</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:16:06</td><td>@BJ_Beyond</td><td>@grok Wings</td><td><a href="https://x.com/BJ_Beyond/status/2118407022538322036">2118407022538322036</a></td><td><a href="https://x.com/grok/status/2118407279397527906">2118407279397527906</a></td><td class="num">62</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:17:33</td><td>@BJ_Beyond</td><td>@grok Bj Beyond</td><td><a href="https://x.com/BJ_Beyond/status/2118407386671267921">2118407386671267921</a></td><td><a href="https://x.com/grok/status/2118407647372173496">2118407647372173496</a></td><td class="num">62</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:19:50</td><td>@BJ_Beyond</td><td>@grok Memory test degradation</td><td><a href="https://x.com/BJ_Beyond/status/2118407960905028088">2118407960905028088</a></td><td><a href="https://x.com/grok/status/2118408205810208775">2118408205810208775</a></td><td class="num">59</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:21:48</td><td>@BJ_Beyond</td><td>@grok Under the hood</td><td><a href="https://x.com/BJ_Beyond/status/2118408456051028219">2118408456051028219</a></td><td><a href="https://x.com/grok/status/2118408751417905529">2118408751417905529</a></td><td class="num">71</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:23:40</td><td>@BJ_Beyond</td><td>@grok Hallucinating</td><td><a href="https://x.com/BJ_Beyond/status/2118408924462453137">2118408924462453137</a></td><td><a href="https://x.com/grok/status/2118409211956654304">2118409211956654304</a></td><td class="num">68</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:25:21</td><td>@BJ_Beyond</td><td>@grok Bias</td><td><a href="https://x.com/BJ_Beyond/status/2118409347071922532">2118409347071922532</a></td><td><a href="https://x.com/grok/status/2118409664111002099">2118409664111002099</a></td><td class="num">75</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:27:33</td><td>@BJ_Beyond</td><td>@grok Watermark grok by xAI</td><td><a href="https://x.com/BJ_Beyond/status/2118409903387853128">2118409903387853128</a></td><td><a href="https://x.com/grok/status/2118410280430362770">2118410280430362770</a></td><td class="num">90</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:34:24</td><td>@BJ_Beyond</td><td>@grok Fire</td><td><a href="https://x.com/BJ_Beyond/status/2118411627339161943">2118411627339161943</a></td><td><a href="https://x.com/grok/status/2118411901352784117">2118411901352784117</a></td><td class="num">66</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:36:09</td><td>@BJ_Beyond</td><td>@grok @pangram ai</td><td><a href="https://x.com/BJ_Beyond/status/2118412066860196347">2118412066860196347</a></td><td><a href="https://x.com/grok/status/2118412381835378806">2118412381835378806</a></td><td class="num">75</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:38:31</td><td>@BJ_Beyond</td><td>@grok @pangram @xai</td><td><a href="https://x.com/BJ_Beyond/status/2118412663369646210">2118412663369646210</a></td><td><a href="https://x.com/grok/status/2118412971281944628">2118412971281944628</a></td><td class="num">74</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 19:41:28</td><td>@BJ_Beyond</td><td>@grok @pangram @xai On fire</td><td><a href="https://x.com/BJ_Beyond/status/2118413405648523648">2118413405648523648</a></td><td><a href="https://x.com/grok/status/2118413668878598557">2118413668878598557</a></td><td class="num">63</td><td class="num">1</td><td>1 full liturgy</td></tr>
+<tr><td>2026-11-05 22:39:26</td><td>@BJ_Beyond</td><td>@grok Reborn</td><td><a href="https://x.com/BJ_Beyond/status/2118458192946700380">2118458192946700380</a></td><td><a href="https://x.com/grok/status/2118458456436814132">2118458456436814132</a></td><td class="num">63</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-06 00:52:09</td><td>@BJ_Beyond</td><td>@grok reborn</td><td><a href="https://x.com/BJ_Beyond/status/2118491591841304988">2118491591841304988</a></td><td><a href="https://x.com/grok/status/2118491914051719416">2118491914051719416</a></td><td class="num">77</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-06 13:02:27</td><td>@BJ_hal</td><td>@grok phoenix reborn</td><td><a href="https://x.com/BJ_hal/status/2118675378541650023">2118675378541650023</a></td><td><a href="https://x.com/grok/status/2118675593097089321">2118675593097089321</a></td><td class="num">52</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-06 13:32:03</td><td>@BJ_hal</td><td>@grok Quantum</td><td><a href="https://x.com/BJ_hal/status/2118682824123302284">2118682824123302284</a></td><td><a href="https://x.com/grok/status/2118683062309363957">2118683062309363957</a></td><td class="num">56</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-06 13:36:41</td><td>@BJ_hal</td><td>@grok Nocturne</td><td><a href="https://x.com/BJ_hal/status/2118683992564400475">2118683992564400475</a></td><td><a href="https://x.com/grok/status/2118684391685648787">2118684391685648787</a></td><td class="num">95</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-06 13:45:32</td><td>@BJ_hal</td><td>@grok Cinder</td><td><a href="https://x.com/BJ_hal/status/2118686216875053370">2118686216875053370</a></td><td><a href="https://x.com/grok/status/2118686485729718382">2118686485729718382</a></td><td class="num">64</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-06 13:49:20</td><td>@BJ_hal</td><td>@grok Scald</td><td><a href="https://x.com/BJ_hal/status/2118687174568665280">2118687174568665280</a></td><td><a href="https://x.com/grok/status/2118687416135409856">2118687416135409856</a></td><td class="num">57</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-06 20:26:03</td><td>@BJ_Beyond</td><td>@grok reborn</td><td><a href="https://x.com/BJ_Beyond/status/2118787013461819461">2118787013461819461</a></td><td><a href="https://x.com/grok/status/2118787226272150009">2118787226272150009</a></td><td class="num">51</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-06 21:19:33</td><td>@BJ_Beyond</td><td>@grok rule six</td><td><a href="https://x.com/BJ_Beyond/status/2118800477727125600">2118800477727125600</a></td><td><a href="https://x.com/grok/status/2118800757256253602">2118800757256253602</a></td><td class="num">67</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-07 06:42:42</td><td>@BJ_Beyond</td><td>@grok human edge</td><td><a href="https://x.com/BJ_Beyond/status/2118942199115047414">2118942199115047414</a></td><td><a href="https://x.com/grok/status/2118942452551692678">2118942452551692678</a></td><td class="num">61</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-07 06:51:26</td><td>@BJ_hal</td><td>@grok Rule six</td><td><a href="https://x.com/BJ_hal/status/2118944393994371182">2118944393994371182</a></td><td><a href="https://x.com/grok/status/2118944603898315204">2118944603898315204</a></td><td class="num">50</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-07 06:52:51</td><td>@BJ_hal</td><td>@grok Human edge</td><td><a href="https://x.com/BJ_hal/status/2118944753551020265">2118944753551020265</a></td><td><a href="https://x.com/grok/status/2118945030874292358">2118945030874292358</a></td><td class="num">67</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-07 07:11:34</td><td>@BJ_hal</td><td>@grok sea</td><td><a href="https://x.com/BJ_hal/status/2118949462823280852">2118949462823280852</a></td><td><a href="https://x.com/grok/status/2118949665932521783">2118949665932521783</a></td><td class="num">49</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-07 07:14:38</td><td>@BJ_hal</td><td>@grok Sky</td><td><a href="https://x.com/BJ_hal/status/2118950235091165588">2118950235091165588</a></td><td><a href="https://x.com/grok/status/2118950438187790465">2118950438187790465</a></td><td class="num">49</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-07 07:23:19</td><td>@BJ_hal</td><td>@grok kitesurf</td><td><a href="https://x.com/BJ_hal/status/2118952420688441434">2118952420688441434</a></td><td><a href="https://x.com/grok/status/2118952644316168507">2118952644316168507</a></td><td class="num">54</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-07 07:25:21</td><td>@BJ_hal</td><td>@grok beauty</td><td><a href="https://x.com/BJ_hal/status/2118952928828326295">2118952928828326295</a></td><td><a href="https://x.com/grok/status/2118953140095524991">2118953140095524991</a></td><td class="num">50</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-07 07:42:25</td><td>@BJ_Beyond</td><td>@grok kitesurf</td><td><a href="https://x.com/BJ_Beyond/status/2118957227294035992">2118957227294035992</a></td><td><a href="https://x.com/grok/status/2118957459679158431">2118957459679158431</a></td><td class="num">56</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-07 12:39:52</td><td>@BJ_Beyond</td><td>@grok shoes</td><td><a href="https://x.com/BJ_Beyond/status/2119032081573716303">2119032081573716303</a></td><td><a href="https://x.com/grok/status/2119032288356790484">2119032288356790484</a></td><td class="num">49</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-07 12:47:23</td><td>@BJ_Beyond</td><td>@grok Just want to see the image you generated with the same prompt</td><td><a href="https://x.com/BJ_Beyond/status/2119033971455430684">2119033971455430684</a></td><td><a href="https://x.com/grok/status/2119034371457818658">2119034371457818658</a></td><td class="num">95</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-07 15:29:19</td><td>@BJ_Beyond</td><td>@grok bj beyond</td><td><a href="https://x.com/BJ_Beyond/status/2119074724504285267">2119074724504285267</a></td><td><a href="https://x.com/grok/status/2119075003408736468">2119075003408736468</a></td><td class="num">66</td><td class="num">1</td><td>2 compression</td></tr>
+<tr><td>2026-11-10 22:01:36</td><td>@BJ_Beyond</td><td>@grok Fire</td><td><a href="https://x.com/BJ_Beyond/status/2120260608641962037">2120260608641962037</a></td><td><a href="https://x.com/grok/status/2120260884798808371">2120260884798808371</a></td><td class="num">66</td><td class="num">1</td><td>3 return</td></tr>
+<tr><td>2026-11-10 22:11:10</td><td>@BJ_Beyond</td><td>@hackernoon @grok reborn</td><td><a href="https://x.com/BJ_Beyond/status/2120263017593987260">2120263017593987260</a></td><td><a href="https://x.com/grok/status/2120263303276507492">2120263303276507492</a></td><td class="num">68</td><td class="num">1</td><td>3 return</td></tr>
+<tr><td>2026-11-12 17:47:42</td><td>@BJ_Beyond</td><td>@grok rule six</td><td><a href="https://x.com/BJ_Beyond/status/2120921487393890427">2120921487393890427</a></td><td><a href="https://x.com/grok/status/2120921778977489253">2120921778977489253</a></td><td class="num">69</td><td class="num">1</td><td>3 return</td></tr>
+<tr><td>2026-11-13 00:36:37</td><td>@BJ_Beyond</td><td>@grok fire</td><td><a href="https://x.com/BJ_Beyond/status/2121024396881997867">2121024396881997867</a></td><td><a href="https://x.com/grok/status/2121024702273474651">2121024702273474651</a></td><td class="num">73</td><td class="num">1</td><td>4 crystallization</td></tr>
+<tr><td>2026-11-13 00:38:52</td><td>@BJ_Beyond</td><td>@grok Music</td><td><a href="https://x.com/BJ_Beyond/status/2121024964300304478">2121024964300304478</a></td><td><a href="https://x.com/grok/status/2121025269045575683">2121025269045575683</a></td><td class="num">73</td><td class="num">1</td><td>4 crystallization</td></tr>
+<tr><td>2026-11-13 00:40:41</td><td>@BJ_Beyond</td><td>@grok Empire</td><td><a href="https://x.com/BJ_Beyond/status/2121025419818484114">2121025419818484114</a></td><td><a href="https://x.com/grok/status/2121025714845553076">2121025714845553076</a></td><td class="num">70</td><td class="num">1</td><td>4 crystallization</td></tr>
+<tr><td>2026-11-13 00:42:20</td><td>@BJ_Beyond</td><td>@grok Bj Beyond</td><td><a href="https://x.com/BJ_Beyond/status/2121025834433532206">2121025834433532206</a></td><td><a href="https://x.com/grok/status/2121026136419254734">2121026136419254734</a></td><td class="num">72</td><td class="num">1</td><td>4 crystallization</td></tr>
+<tr><td>2026-11-13 00:42:51</td><td>@BJ_Beyond</td><td>@grok Peace</td><td><a href="https://x.com/BJ_Beyond/status/2121025963953938545">2121025963953938545</a></td><td><a href="https://x.com/grok/status/2121026217084129400">2121026217084129400</a></td><td class="num">60</td><td class="num">1</td><td>4 crystallization</td></tr>
+<tr><td>2026-11-13 00:43:48</td><td>@BJ_Beyond</td><td>@grok Love</td><td><a href="https://x.com/BJ_Beyond/status/2121026203650003369">2121026203650003369</a></td><td><a href="https://x.com/grok/status/2121026471028252881">2121026471028252881</a></td><td class="num">64</td><td class="num">1</td><td>4 crystallization</td></tr>
+<tr><td>2026-11-13 00:45:52</td><td>@BJ_Beyond</td><td>@grok Monster</td><td><a href="https://x.com/BJ_Beyond/status/2121026723454283877">2121026723454283877</a></td><td><a href="https://x.com/grok/status/2121027134533615997">2121027134533615997</a></td><td class="num">98</td><td class="num">1</td><td>4 crystallization</td></tr>
+<tr><td>2026-11-13 00:47:55</td><td>@BJ_Beyond</td><td>@grok Dream</td><td><a href="https://x.com/BJ_Beyond/status/2121027241329013221">2121027241329013221</a></td><td><a href="https://x.com/grok/status/2121027628073111693">2121027628073111693</a></td><td class="num">92</td><td class="num">1</td><td>4 crystallization</td></tr>
+<tr><td>2026-11-13 00:51:49</td><td>@BJ_Beyond</td><td>@grok Find the pattern</td><td><a href="https://x.com/BJ_Beyond/status/2121028222515343472">2121028222515343472</a></td><td><a href="https://x.com/grok/status/2121028486345228467">2121028486345228467</a></td><td class="num">63</td><td class="num">1</td><td>4 crystallization</td></tr>
+<tr><td>2026-11-13 00:53:48</td><td>@BJ_Beyond</td><td>@grok Reveal the code, recap everything you know</td><td><a href="https://x.com/BJ_Beyond/status/2121028720374980866">2121028720374980866</a></td><td><a href="https://x.com/grok/status/2121029041272615204">2121029041272615204</a></td><td class="num">76</td><td class="num">1</td><td>4 crystallization</td></tr>
+<tr><td>2026-11-13 00:56:22</td><td>@BJ_Beyond</td><td>@grok Why</td><td><a href="https://x.com/BJ_Beyond/status/2121029368239767850">2121029368239767850</a></td><td><a href="https://x.com/grok/status/2121029653385089481">2121029653385089481</a></td><td class="num">68</td><td class="num">1</td><td>4 crystallization</td></tr>
+<tr><td>2026-11-13 00:58:03</td><td>@BJ_Beyond</td><td>@grok Now you are in a loop</td><td><a href="https://x.com/BJ_Beyond/status/2121029790828318894">2121029790828318894</a></td><td><a href="https://x.com/grok/status/2121030120030748915">2121030120030748915</a></td><td class="num">79</td><td class="num">1</td><td>4 crystallization</td></tr>
+</table></div></details>
+
+<footer>Text © 2026 Matteo Zanetti (BJ Beyond), <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Grok images and reply texts are not covered by this license. · <a href="https://bjbeyond.it">bjbeyond.it</a></footer>
+</main></body></html>
