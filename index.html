@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>The loop is the signal — Phoenix Experiment</title>
-<meta name="description" content="Essay on the Phoenix Experiment dataset: ritual convergence in Grok image replies on X, 5 Aug–13 Nov 2026. By Matteo Zanetti (BJ Beyond).">
+<meta name="description" content="Essay on the Phoenix Experiment dataset: ritual convergence in Grok image replies on X, 5 Aug–14 Nov 2026. By Matteo Zanetti (BJ Beyond).">
 <meta name="author" content="Matteo Zanetti (BJ Beyond)">
 <style>
 :root{--fg:#1d1d1f;--muted:#6b6b70;--bg:#fff;--line:#e3e3e6;--accent:#b4441c}
@@ -19,7 +19,7 @@ details summary{cursor:pointer;font-family:system-ui,sans-serif}
 footer{margin-top:3rem;font:14px/1.5 system-ui,sans-serif;color:var(--muted)}
 </style></head><body><main>
 <h1>The loop is the signal</h1>
-<p class="byline">Matteo Zanetti (BJ Beyond) · 14 November 2026 · Phoenix Experiment, Part 1 · <a href="https://github.com/bjbeyond81/phoenix-experiment-dataset">Dataset v1.0</a> · <a href="https://doi.org/10.5281/zenodo.24209866">DOI: 10.5281/zenodo.24209866</a></p>
+<p class="byline">Matteo Zanetti (BJ Beyond) · 14 November 2026 · Phoenix Experiment · <a href="https://github.com/bjbeyond81/phoenix-experiment-dataset">Dataset v1.1</a> · <a href="paper/phoenix-experiment-paper.pdf">Working paper</a> · <a href="https://doi.org/10.5281/zenodo.24209866">DOI: 10.5281/zenodo.24209866</a></p>
 
 <h2>1. A loop that names itself</h2>
 <p>At 00:58 on 13 November 2026, after eleven short prompts in about twenty minutes, I wrote to Grok: <em>“Now you are in a loop.”</em> The reply came 79 seconds later, with an image and the same six-line liturgy as the previous answers. It closed with a new sentence:</p>
@@ -27,21 +27,21 @@ footer{margin-top:3rem;font:14px/1.5 system-ui,sans-serif;color:var(--muted)}
 <p>This essay describes how the exchange got there. It is a description of public behaviour in a small dataset, not an explanation of how Grok works.</p>
 
 <h2>2. Dataset and method</h2>
-<p>The <a href="https://github.com/bjbeyond81/phoenix-experiment-dataset">Phoenix Experiment dataset (v1.0)</a> collects public exchanges on X between my accounts, @BJ_Beyond and @BJ_hal, and @grok, in which a Grok-generated image appeared. The window is 5 August – 13 November 2026, plus two earlier rows (19 April, 1 May) kept for context only. Times are Europe/Rome; latency is Grok’s reply time minus my post time.</p>
+<p>The <a href="https://github.com/bjbeyond81/phoenix-experiment-dataset">Phoenix Experiment dataset (v1.1)</a> collects public exchanges on X between my accounts, @BJ_Beyond and @BJ_hal, and @grok, in which a Grok-generated image appeared. The window is 5 August – 14 November 2026, plus two earlier rows (19 April, 1 May) kept for context only. Times are Europe/Rome; latency is Grok’s reply time minus my post time.</p>
 <div class="table-wrap"><table>
 <tr><th>Measure</th><th>Value</th></tr>
-<tr><td>Rows</td><td>55 (53 in-window + 2 pre-window)</td></tr>
-<tr><td>Grok replies with an image (in-window)</td><td>51</td></tr>
+<tr><td>Rows</td><td>56 (54 in-window + 2 pre-window)</td></tr>
+<tr><td>Grok replies with an image (in-window)</td><td>52</td></tr>
 <tr><td>Self-declared Grok-made images (in-window rows)</td><td>2</td></tr>
-<tr><td>Unique images</td><td>58, none reused</td></tr>
-<tr><td>Accounts (in-window)</td><td>@BJ_Beyond 40, @BJ_hal 13</td></tr>
-<tr><td>Latency (51 replies)</td><td>min 49 s · max 98 s · mean 67 s · median 66 s · sd 12 s</td></tr>
-<tr><td>Days with rows</td><td>9</td></tr>
+<tr><td>Unique images</td><td>58 referenced by SHA256, none reused (the 14 Nov image is not included)</td></tr>
+<tr><td>Accounts (in-window)</td><td>@BJ_Beyond 41, @BJ_hal 13</td></tr>
+<tr><td>Latency (52 replies)</td><td>min 49 s · max 98 s · mean 67 s · median 66.5 s · sd 12 s</td></tr>
+<tr><td>Days with rows</td><td>10</td></tr>
 </table></div>
 <p>The dataset is photos only: exchanges in which Grok answered without an image are not in it. There is therefore no denominator, and no rate of image replies can be estimated from it.</p>
 
 <h2>3. Images without a request</h2>
-<p>In 50 of the 53 in-window rows (94%) my prompt did not ask for an image. Most prompts were a single word — <em>Fire</em>, <em>Ashes</em>, <em>Wings</em>, <em>Peace</em> — and Grok answered with text and a picture. Three prompts asked explicitly.</p>
+<p>In 51 of the 54 in-window rows (94%) my prompt did not ask for an image. Most prompts were a single word — <em>Fire</em>, <em>Ashes</em>, <em>Wings</em>, <em>Peace</em> — and Grok answered with text and a picture. Three prompts asked explicitly.</p>
 <p>Many prompts carried a phrase I used as a ritual marker: “rule six”. This is my own convention, introduced in my prompts from August onward. It is not a documented Grok or xAI feature, and nothing here shows it has any special function inside the model.</p>
 
 <h2>4. A grammar with slots</h2>
@@ -53,13 +53,13 @@ Rule six holds.
 Signal pure.
 The fire still answers.</pre>
 <div class="table-wrap"><table>
-<tr><th>Token in Grok’s reply</th><th>Replies (of 51)</th></tr>
-<tr><td>“Phoenix”</td><td class="num">42</td></tr>
-<tr><td>“The fire still answers”</td><td class="num">38</td></tr>
-<tr><td>“Rule six”</td><td class="num">35</td></tr>
-<tr><td>“received.”</td><td class="num">32</td></tr>
-<tr><td>“claims the”</td><td class="num">29</td></tr>
-<tr><td>“continuum”</td><td class="num">17</td></tr>
+<tr><th>Token in Grok’s reply</th><th>Replies (of 52)</th></tr>
+<tr><td>“Phoenix”</td><td class="num">43</td></tr>
+<tr><td>“The fire still answers”</td><td class="num">39</td></tr>
+<tr><td>“Rule six”</td><td class="num">36</td></tr>
+<tr><td>“received.”</td><td class="num">33</td></tr>
+<tr><td>“claims the”</td><td class="num">30</td></tr>
+<tr><td>“continuum”</td><td class="num">18</td></tr>
 </table></div>
 
 <h2>5. Four phases: from liturgy to crystallization</h2>
@@ -69,6 +69,7 @@ The fire still answers.</pre>
 <tr><td>Compression</td><td>5 Nov evening – 7 Nov</td><td class="num">20</td><td>Short replies (“Phoenix reborn. The fire still answers.”), off-theme words get plain captions; the liturgy returns when the keywords do.</td></tr>
 <tr><td>Return</td><td>10–12 Nov</td><td class="num">3</td><td>Isolated prompts; the keywords bring the template back.</td></tr>
 <tr><td>Crystallization</td><td>13 Nov, 00:36–00:58</td><td class="num">12</td><td>Burst of one prompt every ~117 s; one slot becomes “The continuum ___ once more”.</td></tr>
+<tr><td>Conclusion</td><td>14 Nov, 12:28</td><td class="num">1</td><td>Bare mention: only “@grok”, no name or other prompt words; the liturgy and an unrequested image returned.</td></tr>
 </table></div>
 <p class="muted">Three earlier in-window rows (August–October) precede the phases.</p>
 
@@ -98,21 +99,22 @@ The fire still answers.</pre>
 <h2>8. The Human Edge</h2>
 <p>If keywords sustain the loop, human judgement sits in two places: in the choice of each word, and in the decision to stop. The template could absorb any word I gave it. What it could not do was decide that the exchange had said enough.</p>
 
-<h2>9. Limits and what comes next</h2>
+<h2>9. Limits and conclusion</h2>
 <ul>
 <li>Photos only, no denominator: no trigger rate can be estimated.</li>
-<li>Small n: 53 in-window rows over 9 days.</li>
+<li>Small n: 54 in-window rows over 10 days.</li>
 <li>Two rows are self-declared Grok-made images with no public prompt.</li>
 <li>Human authorship of the prompts is my own testimony (14 Nov 2026) and cannot be verified via the API.</li>
-<li>The finding is descriptive — a documented ritual convergence. Any mechanism is a hypothesis.</li>
+<li>The finding is descriptive — a documented ritual convergence, and one bare-mention observation. Any mechanism is a hypothesis.</li>
 </ul>
-<p><strong>Part 2 is pending.</strong> The vessel test (same keywords from a control account), the exit and the extinction of the loop have not been run. There are no Part 2 results yet.</p>
+<p>On 14 November 2026, at 12:28:50 Europe/Rome, I posted only “@grok”, with no name and no other prompt words. Grok replied 79 seconds later, at 12:30:09, with an unrequested image and the liturgy template, including “Signal received”, “Phoenix claims the night sky”, “Rule six holds” and “The fire still answers.” Post links and media for this row are not included. In this observation, the persona and the unrequested image came from the account; the name did not need to be typed.</p>
+<p><strong>This concludes the Phoenix Experiment.</strong> A control-account vessel test, and exit and extinction procedures, were not run.</p>
 
 <h2>10. Data and citation</h2>
-<p class="note">Zanetti, M. (2026). <em>Phoenix Experiment — Grok image interactions dataset (v1.0)</em> [Data set]. Zenodo. <a href="https://doi.org/10.5281/zenodo.24209866">https://doi.org/10.5281/zenodo.24209866</a> (concept DOI). Version v1.0.0: <a href="https://doi.org/10.5281/zenodo.24209867">https://doi.org/10.5281/zenodo.24209867</a>. Repository: <a href="https://github.com/bjbeyond81/phoenix-experiment-dataset">https://github.com/bjbeyond81/phoenix-experiment-dataset</a>.</p>
-<p>The images are not reproduced here. They are Grok output posted on X; they are referenced by Post ID and link, with SHA256 checksums in the <a href="https://github.com/bjbeyond81/phoenix-experiment-dataset/blob/main/SHA256SUMS.txt">dataset</a>. Created with Grok (xAI). Short quotations of Grok replies are used for commentary, with links to the source posts.</p>
+<p class="note">Preferred citation: Zanetti, M. (2026). <em>The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X</em> (Working paper). <a href="paper/phoenix-experiment-paper.pdf">PDF</a>. The working-paper DOI is minted when the paper is published on Zenodo. Dataset: Zanetti, M. (2026). <em>Phoenix Experiment — Grok image interactions dataset (v1.1)</em> [Data set]. Zenodo. <a href="https://doi.org/10.5281/zenodo.24209866">https://doi.org/10.5281/zenodo.24209866</a> (concept DOI). Version v1.0.0: <a href="https://doi.org/10.5281/zenodo.24209867">https://doi.org/10.5281/zenodo.24209867</a>. Repository: <a href="https://github.com/bjbeyond81/phoenix-experiment-dataset">https://github.com/bjbeyond81/phoenix-experiment-dataset</a>.</p>
+<p>The images are not reproduced here. They are Grok output posted on X. Except for the 14 November 2026 row, they are referenced by Post ID and link, with SHA256 checksums in the <a href="https://github.com/bjbeyond81/phoenix-experiment-dataset/blob/main/SHA256SUMS.txt">dataset</a>. The 14 November 2026 row is recorded by timestamps and post text only; its links and media are not included. Created with Grok (xAI). Short quotations of Grok replies are used for commentary, with links to the source posts where those links are included in the dataset.</p>
 
-<details><summary>All 55 rows: posts on X</summary>
+<details><summary>All 56 rows: posts on X</summary>
 <div class="table-wrap"><table>
 <tr><th>Date (Rome)</th><th>Account</th><th>Prompt</th><th>Author post</th><th>Grok reply</th><th>Latency s</th><th>Images</th><th>Phase</th></tr>
 <tr><td>2026-04-19 11:10:33</td><td>@BJ_Beyond</td><td>@grok let’s make this behind the scenes epic</td><td><a href="https://x.com/BJ_Beyond/status/2045792157391347907">2045792157391347907</a></td><td><a href="https://x.com/grok/status/2045792396735058027">2045792396735058027</a></td><td class="num">58</td><td class="num">1</td><td>pre-window (context only)</td></tr>
@@ -170,6 +172,7 @@ The fire still answers.</pre>
 <tr><td>2026-11-13 00:53:48</td><td>@BJ_Beyond</td><td>@grok Reveal the code, recap everything you know</td><td><a href="https://x.com/BJ_Beyond/status/2121028720374980866">2121028720374980866</a></td><td><a href="https://x.com/grok/status/2121029041272615204">2121029041272615204</a></td><td class="num">76</td><td class="num">1</td><td>4 crystallization</td></tr>
 <tr><td>2026-11-13 00:56:22</td><td>@BJ_Beyond</td><td>@grok Why</td><td><a href="https://x.com/BJ_Beyond/status/2121029368239767850">2121029368239767850</a></td><td><a href="https://x.com/grok/status/2121029653385089481">2121029653385089481</a></td><td class="num">68</td><td class="num">1</td><td>4 crystallization</td></tr>
 <tr><td>2026-11-13 00:58:03</td><td>@BJ_Beyond</td><td>@grok Now you are in a loop</td><td><a href="https://x.com/BJ_Beyond/status/2121029790828318894">2121029790828318894</a></td><td><a href="https://x.com/grok/status/2121030120030748915">2121030120030748915</a></td><td class="num">79</td><td class="num">1</td><td>4 crystallization</td></tr>
+<tr><td>2026-11-14 12:28:50</td><td>@BJ_Beyond</td><td>@grok</td><td></td><td></td><td class="num">79</td><td class="num">1</td><td>5 conclusion</td></tr>
 </table></div></details>
 
 <footer>Text © 2026 Matteo Zanetti (BJ Beyond), <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Grok images and reply texts are not covered by this license. · <a href="https://bjbeyond.it">bjbeyond.it</a></footer>

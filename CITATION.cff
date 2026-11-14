@@ -1,24 +1,27 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+message: "If you use this work, please cite the working paper (see README) and the dataset as below."
 type: dataset
-title: "Phoenix Experiment — Grok image interactions dataset (v1.0)"
+title: "Phoenix Experiment — Grok image interactions dataset (v1.1)"
 authors:
   - family-names: Zanetti
     given-names: Matteo
     affiliation: BJ Beyond
-version: "1.0"
+version: "1.1"
 doi: 10.5281/zenodo.24209866
 date-released: "2026-11-14"
 license: CC-BY-4.0
 repository-code: "https://github.com/bjbeyond81/phoenix-experiment-dataset"
 url: "https://bjbeyond81.github.io/phoenix-experiment-dataset/"
 abstract: >-
-  Descriptive dataset of public exchanges on X (5 Aug – 13 Nov 2026, plus 2
+  Descriptive dataset of public exchanges on X (5 Aug – 14 Nov 2026, plus 2
   pre-window context rows) in which @BJ_Beyond and @BJ_hal addressed @grok and
-  a Grok-generated image appeared. 55 rows, 51 Grok replies with media, 58
-  unique images (referenced by Post ID and SHA256 only, not redistributed).
-  Photos only, no denominator, small n; authorship of prompts is author
-  testimony; any mechanism is a hypothesis.
+  a Grok-generated image appeared. 56 rows, 52 Grok replies with media, 58
+  unique images referenced by Post ID and SHA256 only, not redistributed.
+  The 14 Nov 2026 bare-mention row (@BJ_Beyond posted only "@grok" at 12:28:50
+  Europe/Rome; Grok replied at 12:30:09 with the liturgy template and an
+  unrequested image) concludes the Phoenix Experiment. Post links and media
+  for that row are not included. Photos only, no denominator, small n;
+  authorship of prompts is author testimony; any mechanism is a hypothesis.
 keywords:
   - Phoenix Experiment
   - Grok
@@ -28,3 +31,16 @@ keywords:
   - Human Edge
   - ritual convergence
   - dataset
+preferred-citation:
+  type: report
+  title: "The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X"
+  authors:
+    - family-names: Zanetti
+      given-names: Matteo
+      affiliation: BJ Beyond
+  year: 2026
+  month: 11
+  date-released: "2026-11-14"
+  url: "https://github.com/bjbeyond81/phoenix-experiment-dataset/blob/main/paper/phoenix-experiment-paper.pdf"
+  notes: "Working paper. The publication DOI is minted when the paper is deposited on Zenodo."
+  institution: BJ Beyond
