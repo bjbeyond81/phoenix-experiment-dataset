@@ -3,9 +3,9 @@
 **Author:** Matteo Zanetti (BJ Beyond) — [bjbeyond.it](https://bjbeyond.it)
 **Version:** v1.1, 14 Nov 2026. The Phoenix Experiment is concluded.
 **Repository:** https://github.com/bjbeyond81/phoenix-experiment-dataset
-**Working paper:** [The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X](paper/phoenix-experiment-paper.pdf) ([Markdown](paper/phoenix-experiment-paper.md))
+**Working paper:** [The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X](paper/phoenix-experiment-paper.pdf) ([Markdown](paper/phoenix-experiment-paper.md)). DOI: [10.5281/zenodo.24221578](https://doi.org/10.5281/zenodo.24221578)
 **Companion essay:** [The loop is the signal](https://bjbeyond81.github.io/phoenix-experiment-dataset/)
-**DOI:** dataset concept [10.5281/zenodo.24209866](https://doi.org/10.5281/zenodo.24209866); dataset v1.0.0: [10.5281/zenodo.24209867](https://doi.org/10.5281/zenodo.24209867). The working-paper DOI is minted when the paper is published on Zenodo.
+**DOI:** dataset concept [10.5281/zenodo.24209866](https://doi.org/10.5281/zenodo.24209866); dataset v1.0.0: [10.5281/zenodo.24209867](https://doi.org/10.5281/zenodo.24209867); working paper: [10.5281/zenodo.24221578](https://doi.org/10.5281/zenodo.24221578).
 **License:** CC BY 4.0 for the CSV, this README, the CHANGELOG, the working paper, the essay text and the author's prompts. Grok images are **not** included and **not** licensed (see [Rights and what is not included](#rights-and-what-is-not-included)).
 **Related publication:** [I Typed My Name to Grok. It Sent Me a Phoenix I Never Asked For](https://hackernoon.com/i-typed-my-name-to-grok-it-sent-me-a-phoenix-i-never-asked-for) (HackerNoon, 10 November 2026).
 
@@ -100,9 +100,9 @@ On 14 Nov 2026 the author posted only “@grok” from @BJ_Beyond, with no name 
 
 Preferred citation (working paper):
 
-> Zanetti, M. (2026). *The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X* (Working paper). https://github.com/bjbeyond81/phoenix-experiment-dataset/blob/main/paper/phoenix-experiment-paper.pdf
+> Zanetti, M. (2026). *The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X* (Working paper). Zenodo. https://doi.org/10.5281/zenodo.24221578
 
-The working-paper DOI is minted when the paper is published on Zenodo.
+- Working paper DOI: https://doi.org/10.5281/zenodo.24221578
 
 Dataset (concept DOI; always resolves to the latest archived dataset version):
 
