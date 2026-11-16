@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.1 — 16 Nov 2026
+
+- Author attribution changed to "BJ Beyond" in the citation metadata (`CITATION.cff`, `.zenodo.json`), README, LICENSE, the essay page and the working paper (Markdown and PDF). No changes to data files or checksums.
+
 ## v1.1.0 — 14 Nov 2026
 
 - Added the 14 Nov 2026 bare-mention row: @BJ_Beyond posted only "@grok" at 12:28:50 Europe/Rome; @grok replied 79 s later (12:30:09 Europe/Rome) with an unrequested image and the liturgy template. Post links and media for this row are not included.

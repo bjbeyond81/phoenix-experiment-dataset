@@ -7,8 +7,7 @@
   "description": "<p>This working paper reports a small, descriptive dataset of public exchanges on the platform X in which the author's accounts (@BJ_Beyond and @BJ_hal) addressed the account @grok and a Grok-generated image appeared in the exchange. The observation window is 5 August to 14 November 2026 (54 rows), plus two earlier rows (19 April and 1 May 2026) retained for context only and excluded from in-window statistics. The dataset contains 56 rows in total, of which 52 are in-window Grok replies with media and 2 are self-declared Grok-made images. Fifty-eight unique images are referenced by SHA256 checksum only and are not redistributed.</p>\n<p>Over a few days, Grok's image replies settled into a fixed, slot-based text template carrying keywords previously introduced by the author. That pattern is described here, as in the dataset documentation, as ritual convergence. The report describes what was observed; it does not establish a mechanism.</p>\n<p>On 14 November 2026 at 12:28:50 Europe/Rome, the author posted only “@grok” from @BJ_Beyond, with no name and no other prompt words. Grok replied 79 seconds later, at 12:30:09, with an unrequested image and the same template, including the phrases “Signal received”, “Phoenix claims the night sky”, “Rule six holds” and “The fire still answers”. Post identifiers, URLs and media for that row are not included in the dataset. In that observation, the template and the unrequested image were produced in response to a mention from the account; the author's name did not need to be typed. The Phoenix Experiment is concluded with this observation. A control-account test, and exit and extinction procedures, were not run.</p>",
   "creators": [
     {
-      "name": "Zanetti, Matteo",
-      "affiliation": "BJ Beyond"
+      "name": "BJ Beyond"
     }
   ],
   "license": "cc-by-4.0",

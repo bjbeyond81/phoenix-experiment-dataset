@@ -1,6 +1,6 @@
 # Phoenix Experiment — Grok image interactions dataset (v1.1)
 
-**Author:** Matteo Zanetti (BJ Beyond) — [bjbeyond.it](https://bjbeyond.it)
+**Author:** BJ Beyond — [bjbeyond.it](https://bjbeyond.it)
 **Version:** v1.1, 14 Nov 2026. The Phoenix Experiment is concluded.
 **Repository:** https://github.com/bjbeyond81/phoenix-experiment-dataset
 **Working paper:** [The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X](paper/phoenix-experiment-paper.pdf) ([Markdown](paper/phoenix-experiment-paper.md)). DOI: [10.5281/zenodo.24221578](https://doi.org/10.5281/zenodo.24221578)
@@ -100,7 +100,7 @@ On 14 Nov 2026 the author posted only “@grok” from @BJ_Beyond, with no name 
 
 Preferred citation (working paper):
 
-> Zanetti, M. (2026). *The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X* (Working paper). Zenodo. https://doi.org/10.5281/zenodo.24221578
+> BJ Beyond. (2026). *The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X* (Working paper). Zenodo. https://doi.org/10.5281/zenodo.24221578
 
 - Working paper DOI: https://doi.org/10.5281/zenodo.24221578
 
@@ -108,7 +108,7 @@ Dataset (concept DOI; always resolves to the latest archived dataset version):
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24209866.svg)](https://doi.org/10.5281/zenodo.24209866)
 
-> Zanetti, M. (2026). *Phoenix Experiment — Grok image interactions dataset (v1.1)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24209866
+> BJ Beyond. (2026). *Phoenix Experiment — Grok image interactions dataset (v1.1)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24209866
 
 - Concept DOI: https://doi.org/10.5281/zenodo.24209866
 - Version v1.0.0 DOI: https://doi.org/10.5281/zenodo.24209867

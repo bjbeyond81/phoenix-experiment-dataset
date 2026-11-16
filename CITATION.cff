@@ -3,9 +3,7 @@ message: "If you use this work, please cite the working paper (see README) and t
 type: dataset
 title: "Phoenix Experiment — Grok image interactions dataset (v1.1)"
 authors:
-  - family-names: Zanetti
-    given-names: Matteo
-    affiliation: BJ Beyond
+  - name: BJ Beyond
 version: "1.1"
 doi: 10.5281/zenodo.24209866
 date-released: "2026-11-14"
@@ -35,9 +33,7 @@ preferred-citation:
   type: report
   title: "The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X"
   authors:
-    - family-names: Zanetti
-      given-names: Matteo
-      affiliation: BJ Beyond
+    - name: BJ Beyond
   year: 2026
   month: 11
   date-released: "2026-11-14"

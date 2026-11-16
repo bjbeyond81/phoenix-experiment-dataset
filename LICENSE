@@ -1,9 +1,9 @@
 Phoenix Experiment — Grok image interactions dataset (v1.1)
-Copyright (c) 2026 Matteo Zanetti (BJ Beyond)
+Copyright (c) 2026 BJ Beyond
 
 SCOPE OF THIS LICENSE
 The Creative Commons Attribution 4.0 International license below applies
-ONLY to the following material authored by Matteo Zanetti (BJ Beyond):
+ONLY to the following material authored by BJ Beyond:
   - grok_image_interactions_photos_only.csv (structure, derived fields,
     annotations, and the author's own prompt texts)
   - README.md, CHANGELOG.md, index.html (essay text)
