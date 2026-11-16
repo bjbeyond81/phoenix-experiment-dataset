@@ -1,13 +1,13 @@
 ---
 title: "The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X"
-author: "Matteo Zanetti (BJ Beyond)"
+author: "BJ Beyond"
 date: "14 November 2026"
 type: working-paper
 ---
 
 # The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X
 
-Matteo Zanetti (BJ Beyond)
+BJ Beyond
 
 14 November 2026
 
@@ -21,7 +21,7 @@ On 14 November 2026 at 12:28:50 Europe/Rome, the author posted only “@grok” 
 
 ## 1. Introduction
 
-The Phoenix Experiment is a record of public interactions between two accounts controlled by the author and the @grok account on X. The present report accompanies version 1.1 of a photos-only dataset of those interactions in which a Grok-generated image appeared (Zanetti, 2026a). A prior first-person account of earlier exchanges was published on HackerNoon on 10 November 2026 (Zanetti, 2026b). This paper is limited to what is documented in the dataset and does not retell that narrative.
+The Phoenix Experiment is a record of public interactions between two accounts controlled by the author and the @grok account on X. The present report accompanies version 1.1 of a photos-only dataset of those interactions in which a Grok-generated image appeared (BJ Beyond, 2026a). A prior first-person account of earlier exchanges was published on HackerNoon on 10 November 2026 (BJ Beyond, 2026b). This paper is limited to what is documented in the dataset and does not retell that narrative.
 
 The object of interest is a recurrent reply pattern. In a subset of the recorded window, Grok's image-bearing replies converged on a fixed, slot-based text template whose invariant lines included author-introduced phrases such as “Rule six holds” and “The fire still answers”, and whose variable slots were filled from the author's prompt. “Rule six” is the author's own convention, introduced in his prompts. It is not a documented feature of Grok or of xAI.
 
@@ -149,12 +149,12 @@ The result remains descriptive. It does not establish how Grok selects images or
 
 ## 6. Data availability
 
-The dataset (CSV, checksums, documentation and this paper) is maintained at https://github.com/bjbeyond81/phoenix-experiment-dataset. The concept DOI of the prior data release, which resolves to the latest archived dataset version, is https://doi.org/10.5281/zenodo.24209866 (Zanetti, 2026a). Version 1.0.0 is https://doi.org/10.5281/zenodo.24209867. Version 1.1, which adds the 14 November 2026 row, is the version described here; its archival DOI is minted when the deposit is published.
+The dataset (CSV, checksums, documentation and this paper) is maintained at https://github.com/bjbeyond81/phoenix-experiment-dataset. The concept DOI of the prior data release, which resolves to the latest archived dataset version, is https://doi.org/10.5281/zenodo.24209866 (BJ Beyond, 2026a). Version 1.0.0 is https://doi.org/10.5281/zenodo.24209867. Version 1.1, which adds the 14 November 2026 row, is the version described here; its archival DOI is minted when the deposit is published.
 
 Author-created materials (the CSV structure and derived fields, the author's prompt texts, this paper, and the accompanying documentation) are licensed under CC BY 4.0. Grok images and Grok's full reply texts are not included and are not covered by that licence.
 
 ## References
 
-Zanetti, M. (2026a). *Phoenix Experiment — Grok image interactions dataset (v1.0)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24209866
+BJ Beyond. (2026a). *Phoenix Experiment — Grok image interactions dataset (v1.0)* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24209866
 
-Zanetti, M. (2026b, 10 November). I typed my name to Grok. It sent me a phoenix I never asked for. *HackerNoon*. https://hackernoon.com/i-typed-my-name-to-grok-it-sent-me-a-phoenix-i-never-asked-for
+BJ Beyond. (2026b, 10 November). I typed my name to Grok. It sent me a phoenix I never asked for. *HackerNoon*. https://hackernoon.com/i-typed-my-name-to-grok-it-sent-me-a-phoenix-i-never-asked-for
