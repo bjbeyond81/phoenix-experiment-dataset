@@ -4,6 +4,8 @@
 
 - Added the public post identifiers and x.com URLs for the 14 Nov 2026 bare-mention row: user post 2121566020196278434, Grok reply 2121566349344354311. The image media identifier is HXFRWi4XgAAszLH. The image is still not redistributed and is still not in SHA256SUMS. Row counts are unchanged (56 rows, 54 in-window).
 - README, essay page, citation metadata, the working-paper Markdown and the PDF now say the identifiers are included. The PDF was regenerated from the Markdown (the original ReportLab script is not in the repository).
+- Archived on Zenodo (24 Nov 2026) as new versions of both records, with the files of commit 52aa912 (no images). Dataset v1.1.2: https://doi.org/10.5281/zenodo.24497343 (concept 10.5281/zenodo.24209866, unchanged). Working paper 1.1.2: https://doi.org/10.5281/zenodo.24497399 (concept 10.5281/zenodo.24221577, unchanged).
+- README, CITATION.cff and the essay page now cite the working-paper concept DOI (10.5281/zenodo.24221577) instead of the first-version DOI (10.5281/zenodo.24221578), and list the v1.1.2 version DOIs.
 
 
 ## v1.1.1 — 16 Nov 2026
