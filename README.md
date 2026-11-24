@@ -3,9 +3,9 @@
 **Author:** BJ Beyond — [bjbeyond.it](https://bjbeyond.it)
 **Version:** v1.1, 14 Nov 2026. The Phoenix Experiment is concluded.
 **Repository:** https://github.com/bjbeyond81/phoenix-experiment-dataset
-**Working paper:** [The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X](paper/phoenix-experiment-paper.pdf) ([Markdown](paper/phoenix-experiment-paper.md)). DOI: [10.5281/zenodo.24221578](https://doi.org/10.5281/zenodo.24221578)
+**Working paper:** [The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X](paper/phoenix-experiment-paper.pdf) ([Markdown](paper/phoenix-experiment-paper.md)). DOI (concept): [10.5281/zenodo.24221577](https://doi.org/10.5281/zenodo.24221577)
 **Companion essay:** [The loop is the signal](https://bjbeyond81.github.io/phoenix-experiment-dataset/)
-**DOI:** dataset concept [10.5281/zenodo.24209866](https://doi.org/10.5281/zenodo.24209866); dataset v1.0.0: [10.5281/zenodo.24209867](https://doi.org/10.5281/zenodo.24209867); working paper: [10.5281/zenodo.24221578](https://doi.org/10.5281/zenodo.24221578).
+**DOI:** dataset concept [10.5281/zenodo.24209866](https://doi.org/10.5281/zenodo.24209866); dataset v1.0.0: [10.5281/zenodo.24209867](https://doi.org/10.5281/zenodo.24209867); dataset v1.1.2: [10.5281/zenodo.24497343](https://doi.org/10.5281/zenodo.24497343); working paper concept [10.5281/zenodo.24221577](https://doi.org/10.5281/zenodo.24221577); working paper 1.1.2: [10.5281/zenodo.24497399](https://doi.org/10.5281/zenodo.24497399).
 **License:** CC BY 4.0 for the CSV, this README, the CHANGELOG, the working paper, the essay text and the author's prompts. Grok images are **not** included and **not** licensed (see [Rights and what is not included](#rights-and-what-is-not-included)).
 **Related publication:** [I Typed My Name to Grok. It Sent Me a Phoenix I Never Asked For](https://hackernoon.com/i-typed-my-name-to-grok-it-sent-me-a-phoenix-i-never-asked-for) (HackerNoon, 10 November 2026).
 
@@ -100,9 +100,10 @@ On 14 Nov 2026 the author posted only “@grok” from @BJ_Beyond, with no name 
 
 Preferred citation (working paper):
 
-> BJ Beyond. (2026). *The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X* (Working paper). Zenodo. https://doi.org/10.5281/zenodo.24221578
+> BJ Beyond. (2026). *The Phoenix Experiment: An Observational Report of Template Convergence in Grok Image Replies on X* (Working paper). Zenodo. https://doi.org/10.5281/zenodo.24221577
 
-- Working paper DOI: https://doi.org/10.5281/zenodo.24221578
+- Working paper concept DOI (always resolves to the latest version): https://doi.org/10.5281/zenodo.24221577
+- Working paper version 1.1.2 DOI: https://doi.org/10.5281/zenodo.24497399
 
 Dataset (concept DOI; always resolves to the latest archived dataset version):
 
@@ -112,4 +113,5 @@ Dataset (concept DOI; always resolves to the latest archived dataset version):
 
 - Concept DOI: https://doi.org/10.5281/zenodo.24209866
 - Version v1.0.0 DOI: https://doi.org/10.5281/zenodo.24209867
+- Version v1.1.2 DOI: https://doi.org/10.5281/zenodo.24497343
 - GitHub repository: https://github.com/bjbeyond81/phoenix-experiment-dataset
