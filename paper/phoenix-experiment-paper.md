@@ -149,7 +149,7 @@ The result remains descriptive. It does not establish how Grok selects images or
 
 ## 6. Data availability
 
-The dataset (CSV, checksums, documentation and this paper) is maintained at https://github.com/bjbeyond81/phoenix-experiment-dataset. The concept DOI of the prior data release, which resolves to the latest archived dataset version, is https://doi.org/10.5281/zenodo.24209866 (BJ Beyond, 2026a). Version 1.0.0 is https://doi.org/10.5281/zenodo.24209867. Version 1.1, which adds the 14 November 2026 row, is the version described here; its archival DOI is minted when the deposit is published.
+The dataset (CSV, checksums, documentation and this paper) is maintained at https://github.com/bjbeyond81/phoenix-experiment-dataset. The concept DOI of the prior data release, which resolves to the latest archived dataset version, is https://doi.org/10.5281/zenodo.24209866 (BJ Beyond, 2026a). Version 1.0.0 is https://doi.org/10.5281/zenodo.24209867. Version 1.1, which adds the 14 November 2026 row, is the version described here; it is archived as dataset version v1.1.2 at https://doi.org/10.5281/zenodo.24497343.
 
 Author-created materials (the CSV structure and derived fields, the author's prompt texts, this paper, and the accompanying documentation) are licensed under CC BY 4.0. Grok images and Grok's full reply texts are not included and are not covered by that licence.
 
