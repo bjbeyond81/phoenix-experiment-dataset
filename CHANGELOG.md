@@ -6,6 +6,7 @@
 - README, essay page, citation metadata, the working-paper Markdown and the PDF now say the identifiers are included. The PDF was regenerated from the Markdown (the original ReportLab script is not in the repository).
 - Archived on Zenodo (24 Nov 2026) as new versions of both records, with the files of commit 52aa912 (no images). Dataset v1.1.2: https://doi.org/10.5281/zenodo.24497343 (concept 10.5281/zenodo.24209866, unchanged). Working paper 1.1.2: https://doi.org/10.5281/zenodo.24497399 (concept 10.5281/zenodo.24221577, unchanged).
 - README, CITATION.cff and the essay page now cite the working-paper concept DOI (10.5281/zenodo.24221577) instead of the first-version DOI (10.5281/zenodo.24221578), and list the v1.1.2 version DOIs.
+- Working paper, section 6: now gives the archived DOI of dataset v1.1.2 (10.5281/zenodo.24497343) instead of saying that the DOI is minted on publication. The PDF is rebuilt with the new script `paper/build_pdf.py` (ReportLab): Table 3 now fits the page and inline code is set in a monospaced font. The text is otherwise unchanged. The Zenodo deposits keep the files of commit 52aa912.
 
 
 ## v1.1.1 — 16 Nov 2026
