@@ -1,0 +1,30 @@
+name: Build paper PDF
+
+# Run by hand (Actions > Build paper PDF > Run workflow) after editing
+# paper/phoenix-experiment-paper.md. Rebuilds the PDF and commits it if it changed.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install reportlab==5.0.1
+      - run: python3 paper/build_pdf.py
+      - name: Commit the PDF if it changed
+        run: |
+          if git diff --quiet -- paper/phoenix-experiment-paper.pdf; then
+            echo "PDF unchanged"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add paper/phoenix-experiment-paper.pdf
+          git commit -m "Rebuild paper PDF from paper/phoenix-experiment-paper.md"
+          git push
