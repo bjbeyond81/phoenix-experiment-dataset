@@ -3,7 +3,7 @@
 ## v1.1.2 — 24 Nov 2026
 
 - Added the public post identifiers and x.com URLs for the 14 Nov 2026 bare-mention row: user post 2121566020196278434, Grok reply 2121566349344354311. The image media identifier is HXFRWi4XgAAszLH. The image is still not redistributed and is still not in SHA256SUMS. Row counts are unchanged (56 rows, 54 in-window).
-- README, essay page, citation metadata and the working-paper Markdown now say the identifiers are included. The PDF was not regenerated: the ReportLab script that built it is not in this repository, and that PDF still says the identifiers are absent.
+- README, essay page, citation metadata, the working-paper Markdown and the PDF now say the identifiers are included. The PDF was regenerated from the Markdown (the original ReportLab script is not in the repository).
 
 
 ## v1.1.1 — 16 Nov 2026
