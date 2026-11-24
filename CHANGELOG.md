@@ -1,12 +1,18 @@
 # Changelog
 
+## v1.1.2 — 24 Nov 2026
+
+- Added the public post identifiers and x.com URLs for the 14 Nov 2026 bare-mention row: user post 2121566020196278434, Grok reply 2121566349344354311. The image media identifier is HXFRWi4XgAAszLH. The image is still not redistributed and is still not in SHA256SUMS. Row counts are unchanged (56 rows, 54 in-window).
+- README, essay page, citation metadata and the working-paper Markdown now say the identifiers are included. The PDF was not regenerated: the ReportLab script that built it is not in this repository, and that PDF still says the identifiers are absent.
+
+
 ## v1.1.1 — 16 Nov 2026
 
 - Author attribution changed to "BJ Beyond" in the citation metadata (`CITATION.cff`, `.zenodo.json`), README, LICENSE, the essay page and the working paper (Markdown and PDF). No changes to data files or checksums.
 
 ## v1.1.0 — 14 Nov 2026
 
-- Added the 14 Nov 2026 bare-mention row: @BJ_Beyond posted only "@grok" at 12:28:50 Europe/Rome; @grok replied 79 s later (12:30:09 Europe/Rome) with an unrequested image and the liturgy template. Post links and media for this row are not included.
+- Added the 14 Nov 2026 bare-mention row: @BJ_Beyond posted only "@grok" at 12:28:50 Europe/Rome; @grok replied 79 s later (12:30:09 Europe/Rome) with an unrequested image and the liturgy template. Post identifiers and URLs for this row are included. The image is not redistributed and is not among the checksums.
 - Window extended to 14 Nov 2026. 56 rows (54 in-window + 2 pre-window); 52 Grok replies with media; 58 unique images referenced by SHA256 (images not redistributed). The 14 Nov 2026 image is not included in the checksums.
 - The author concludes the Phoenix Experiment with this observation: in this exchange, the persona and the unrequested image came from the account; the name did not need to be typed. A control-account vessel test, and exit and extinction procedures, were not run.
 - Added a working paper in academic register: `paper/phoenix-experiment-paper.md` and `paper/phoenix-experiment-paper.pdf`.

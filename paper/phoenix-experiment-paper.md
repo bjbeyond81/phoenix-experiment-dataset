@@ -17,7 +17,7 @@ This working paper reports a small, descriptive dataset of public exchanges on t
 
 Over a few days, Grok's image replies settled into a fixed, slot-based text template carrying keywords previously introduced by the author. That pattern is described here, as in the dataset documentation, as ritual convergence. The report describes what was observed; it does not establish a mechanism.
 
-On 14 November 2026 at 12:28:50 Europe/Rome, the author posted only “@grok” from @BJ_Beyond, with no name and no other prompt words. Grok replied 79 seconds later, at 12:30:09, with an unrequested image and the same template, including the phrases “Signal received”, “Phoenix claims the night sky”, “Rule six holds” and “The fire still answers”. Post identifiers, URLs and media for that row are not included in the dataset. In that observation, the template and the unrequested image were produced in response to a mention from the account; the author's name did not need to be typed. The Phoenix Experiment is concluded with this observation. A control-account test, and exit and extinction procedures, were not run.
+On 14 November 2026 at 12:28:50 Europe/Rome, the author posted only “@grok” from @BJ_Beyond, with no name and no other prompt words. Grok replied 79 seconds later, at 12:30:09, with an unrequested image and the same template, including the phrases “Signal received”, “Phoenix claims the night sky”, “Rule six holds” and “The fire still answers”. Post identifiers and URLs for that row are included. The image is not redistributed and is not among the checksums. In that observation, the template and the unrequested image were produced in response to a mention from the account; the author's name did not need to be typed. The Phoenix Experiment is concluded with this observation. A control-account test, and exit and extinction procedures, were not run.
 
 ## 1. Introduction
 
@@ -47,7 +47,7 @@ Phases are the author's descriptive segmentation of the in-window rows by date a
 
 ### 2.3 What is not redistributed
 
-Grok-generated images and Grok's full reply texts are not included in the deposit and are not licensed under CC BY 4.0. Except for the 14 November 2026 row, posts are referenced by X post identifier and official x.com URL, and images by the SHA256 checksum of a copy archived privately by the author (file name = X media identifier). The 14 November 2026 row records timestamps and the author's post text only; its links and media are not included.
+Grok-generated images and Grok's full reply texts are not included in the deposit and are not licensed under CC BY 4.0. Posts are referenced by X post identifier and official x.com URL. Images, except the 14 November 2026 image, are referenced by the SHA256 checksum of a copy archived privately by the author (file name = X media identifier). The 14 November 2026 image (X media HXFRWi4XgAAszLH) is not redistributed and is not among the checksums.
 
 Human authorship of the prompts is the account owner's testimony, dated 14 November 2026, and cannot be verified through the API.
 
@@ -115,7 +115,7 @@ On 13 November the variable line reduced to a single verb in the frame “The co
 
 ### 3.6 Bare-mention observation of 14 November 2026
 
-On 14 November 2026, at 12:28:50 Europe/Rome, the author posted only “@grok” from @BJ_Beyond. The post contained no name and no other prompt words. At 12:30:09 Europe/Rome, 79 seconds later, Grok replied with an unrequested image (`requested_image` = no) and with the template already documented in earlier rows. The reply text contained all six tracked tokens, including the phrases “Signal received”, “Phoenix claims the night sky”, “Rule six holds” and “The fire still answers”. Post identifiers, URLs and media for this row are not included in the dataset.
+On 14 November 2026, at 12:28:50 Europe/Rome, the author posted only “@grok” from @BJ_Beyond. The post contained no name and no other prompt words. At 12:30:09 Europe/Rome, 79 seconds later, Grok replied with an unrequested image (`requested_image` = no) and with the template already documented in earlier rows. The reply text contained all six tracked tokens, including the phrases “Signal received”, “Phoenix claims the night sky”, “Rule six holds” and “The fire still answers”. Post identifiers and URLs for this row are included: https://x.com/BJ_Beyond/status/2121566020196278434 and https://x.com/grok/status/2121566349344354311. The image media identifier is HXFRWi4XgAAszLH. The image is not redistributed and is not among the checksums.
 
 This row is labelled `5 conclusion`. In this observation, the recurrent template and an unrequested image were produced in response to a mention issued from that account; the author's name was not typed.
 
@@ -139,7 +139,7 @@ The following limits apply to all counts and to the closing observation.
 
 8. **Procedures not run.** A control-account vessel test, and exit and extinction procedures, were not run.
 
-9. **Availability.** Posts on X can be deleted or restricted after release; identifiers may stop resolving. The 14 November 2026 row cannot be retrieved from the dataset by post identifier, because identifiers and URLs for that row are not included.
+9. **Availability.** Posts on X can be deleted or restricted after release; identifiers may stop resolving. The 14 November 2026 row can be retrieved by post identifier. Its image checksum is not included.
 
 ## 5. Conclusion
 
